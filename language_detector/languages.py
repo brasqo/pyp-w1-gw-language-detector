@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 """This file contains the definition of all languages supported by the program."""
 
 LANGUAGES = [
@@ -26,6 +26,23 @@ LANGUAGES = [
             'einen', 'kann', 'dem'
         ]
     },
+    {
+        'name': 'English',
+        'common_words': [
+
     #  include the English language here
     # HINT: https://en.wikipedia.org/wiki/Most_common_words_in_English
+
+            'time', 'person', 'year', 'way', 'day', 'thing', 'man', 'world',
+            'life', 'hand', 'part', 'child', 'eye', 'woman', 'place', 'work',
+            'week', 'case', 'point', 'government','company','number', 'group', 'problem',
+            'fact', 'be', 'have','do','say','get','make','go','know','take','see','come',
+            'think','look','want','give','use','find','tell','ask','work','seem','feel',
+            'try','leave','call','the','be','to','of','and','a','in','that','have','I','it',
+            'for','not','on','with','he','as','you','do','at','this', 'but' ,'his', 'by',
+            'they','we','say', 'her','she', 'or', 'an', 'will','my', 'one', 'all','would',
+            'win', 'too', 'and', 'which', 'won'
+    
+        ]
+    }
 ]
